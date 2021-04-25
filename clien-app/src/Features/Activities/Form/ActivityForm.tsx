@@ -26,6 +26,8 @@ export default function ActivityForm({
 
   function handleSubmit() {
     createOrEdit(activity); 
+    console.log("CB");
+    
   }
 
   function handleInputChange(
